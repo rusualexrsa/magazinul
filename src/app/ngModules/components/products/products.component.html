@@ -1,5 +1,5 @@
-<mat-grid-list [cols]="2" gutterSize="20px" rowHeight="1.0:1.1">
-  <mat-grid-tile *ngFor="let product of products">
+<div class="content" fxLayout="row wrap" fxLayoutGap="2rem grid">
+  <div fxFlex="25%" fxFlex.xs="50%" fxFlex.sm="50%" *ngFor="let product of products">
     <rsa-product-tile [product]="product"></rsa-product-tile>
-  </mat-grid-tile>
-</mat-grid-list>
+  </div>
+</div>

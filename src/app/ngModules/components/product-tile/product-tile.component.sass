@@ -1,25 +1,29 @@
-mat-card-content
-  display: flex
-  justify-content: center
-
-img
-  height: 100%
-  width: 100%
+.mat-card-image
+  max-height: 80%
+  width: calc(100% + 16px)
+  margin: auto
   object-fit: contain
 
-mat-card-actions
-  display: inline
-  button
-    background: #aa12125b
-
-  div
-    margin: 0 8px
-
-  .buy
-    float: right
-
-  .price
-    float: left
+img
+  margin: auto!important
 
 mat-card
-  margin:1%
+  height: 94%
+  width: 94%
+  margin: 4%
+
+.buy
+  float: right
+
+mat-card-header
+  height: 10%
+
+mat-card-content
+  height: 73%
+  display: flex
+  justify-content: center
+  vertical-align: middle
+
+mat-card-actions
+  height: auto
+

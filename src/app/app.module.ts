@@ -12,6 +12,7 @@ import { MaterialModule } from './ngModules/material/material.module';
 import { ProductsComponent } from './ngModules/components/products/products.component';
 import { ProductTileComponent } from './ngModules/components/product-tile/product-tile.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
